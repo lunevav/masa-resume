@@ -1,4 +1,9 @@
 .default_div{
+    align-self: auto;
+    position: auto;
+    height: 200;
+    width: 200;
     color: red;
-    border: 1px;
+    border: solid 10px;
+    margin: 10px;
 }
