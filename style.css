@@ -1,14 +1,45 @@
 div{
-    height: 200;
-    width: 200;
-    border: solid 2px;
+   
+    margin: 4px;
 }
-.info-container{
-    width: 300;
-    height: 150;
+
+.resume-wrapper{
+    width: 900px;
 }
-.info-list{
-    font-size: 20;
-    list-style: disc;
-    padding-left: 40px;
+
+.resume-block-wrapper-header{
 }
+
+.resume-block-content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.resume-block-content-left{
+    display: flex;
+    align-items: center;
+    width: 15%; 
+}
+
+.resume-block-content-righ{
+    width: 85%;
+}
+
+.resume-block-content-right-header{
+}
+
+.resume-block-content-right-desciption{
+}
+
+.resume-block-content-right-desciption ul{
+    padding-inline-start: 10px;
+    list-style-type: none;
+}
+
+.img-wrapper{
+}
+
+.photo{
+    width: 50%;
+}
+
